@@ -1,0 +1,63 @@
+.videoFooter{
+    position: relative;
+    color: white;
+    bottom: 160px;
+    display: flex;
+
+}
+
+.videoFooter__text{
+    flex: 1;
+}
+
+.videoFooter__text> h3{
+    padding-bottom: 5px;
+}
+
+.videoFooter__text > p{
+    padding-bottom: 0px;
+}
+
+.videoFooter__text > {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+}
+
+.videoFooter__record {
+    animation: spinTheRecord infinite 5s linear;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+    /* padding-left: 5px; */
+    filter: invert(1);
+}
+
+.videoFooter_ticker  p{
+    padding-top: 7px;
+    font-size: 12px;
+}
+
+.videoFooter__ticker > .ticker {
+    height: fit-content;
+    margin-left: 30px;
+    width: 80%;
+  }
+  
+
+.videoFooter__icon{
+    position: absolute;
+    bottom: 12px;
+    left: 05px;
+}
+
+@keyframes spinTheRecord {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
