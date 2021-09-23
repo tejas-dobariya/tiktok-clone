@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Heyyy user,let's build Tiktok</h1>
+      {/* <h3>Heyyy user,let's build Tiktok</h3> */}
       <div className="app__videos"> 
         {videos.map(
           ({url , channel , description , song , likes , messages , shares})=>(
